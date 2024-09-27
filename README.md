@@ -4,11 +4,8 @@ This repository contains a Jupyter Notebook that implements a machine learning m
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Installation and Setup](#installation-and-setup)
-- [Usage](#usage)
-- [Results](#results)
+- [Local Installation and Setup](#local-installation-and-setup)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,12 +18,6 @@ Key concepts covered:
 - Training the model on image data
 - Evaluating performance using accuracy and loss metrics
 
-## Dataset
-The dataset used for this project includes images of cats and dogs. The dataset can be obtained from the following source:
-- [Kaggle Cats vs. Dogs dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
-
-Ensure that the dataset is downloaded and placed in the appropriate directory before running the notebook.
-
 ## Model Architecture
 The model in this notebook is a Convolutional Neural Network (CNN) designed to work on image data. The architecture typically includes:
 - **Convolutional Layers**: Extract features from images.
@@ -34,7 +25,16 @@ The model in this notebook is a Convolutional Neural Network (CNN) designed to w
 - **Fully Connected Layers**: Make predictions based on extracted features.
 - **Activation Functions**: Apply non-linearity to enhance the model's learning capacity.
 
-## Installation and Setup
+## Local Installation and Setup
+
+### Dataset
+
+The dataset used for this project includes images of cats and dogs. The dataset can be obtained from the following source:
+- [Kaggle Cats vs. Dogs dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
+
+Ensure that the dataset is downloaded and placed in the appropriate directory before running the notebook.
+
+### Installation and Setup
 To run this project, you'll need to have Python and Jupyter Notebook installed. You can install the required dependencies by running the following command:
 
 ```bash
@@ -55,7 +55,7 @@ You can install these libraries using:
 pip install tensorflow keras numpy pandas matplotlib opencv-python
 ```
 
-## Usage
+### Usage
 1. Clone this repository:
     ```bash
     git clone https://github.com/iam-tsr/cats-vs-dogs-classification.git
@@ -72,7 +72,7 @@ pip install tensorflow keras numpy pandas matplotlib opencv-python
 
 Follow the steps in the notebook to preprocess the data, build the model, train it, and evaluate its performance.
 
-## Results
+### Results
 The model's performance is evaluated using accuracy and loss on both the training and validation datasets. Key performance metrics and visualizations such as accuracy curves and confusion matrices will be displayed in the notebook.
 
 ## Contributing
